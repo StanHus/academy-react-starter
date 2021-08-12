@@ -5,19 +5,16 @@ function App(): JSX.Element {
   return (
     <body>
       <header>
-        <h1>My Favorite Places</h1>
+        <h1>My Favorite Movies</h1>
       </header>
       <main>
+        <img src="Thor.jpg" alt="thor movie poster"></img>
         <PhotoEntry
-          title="Picture 1"
-          tags={["nature", "something"]}
-          location={"Place 1 location"}
+          title="Thor: Ragnarok"
+          tags={["action", "comedy", "MARVEL"]}
         />
-        <PhotoEntry
-          title="Picture 2"
-          tags={["landscape", "something"]}
-          location={"Place 2 location"}
-        />
+        <img src="hamilton.jpg" alt="hamilton musical poster"></img>
+        <PhotoEntry title="Hamilton" tags={["drama", "historic", "musical"]} />
       </main>
     </body>
   );

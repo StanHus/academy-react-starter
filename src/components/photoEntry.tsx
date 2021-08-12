@@ -1,7 +1,7 @@
 interface photoEntryProps {
   title: string;
   tags: string[];
-  location: string;
+  //location: string;
 }
 
 function PhotoEntry(props: photoEntryProps): JSX.Element {
@@ -11,7 +11,7 @@ function PhotoEntry(props: photoEntryProps): JSX.Element {
       <p>
         <i>Tags: {props.tags.join(", ")}</i>
       </p>
-      <p>{props.location}</p>
+      {/* <p>{props.location}</p> */}
     </section>
   );
 }
