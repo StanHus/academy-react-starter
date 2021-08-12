@@ -6,6 +6,7 @@ function App(): JSX.Element {
     <body>
       <header>
         <h1>My Favorite Movies</h1>
+        <img src="../Thor.jpg" alt="thor movie poster" />
       </header>
       <main>
         <img src="../Thor.jpg" alt="thor movie poster" />
