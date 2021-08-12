@@ -1,7 +1,7 @@
 //import { greet } from "./utils/greet";
 import PhotoEntry from "./components/photoEntry";
-import Thor from "Thor.jpg";
-import Hamilton from "hamilton.jpg";
+import Thor from "../Thor.jpg";
+import Hamilton from "../hamilton.jpg";
 
 function App(): JSX.Element {
   return (
