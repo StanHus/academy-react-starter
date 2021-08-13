@@ -10,16 +10,17 @@ function App(): JSX.Element {
         <h1>My Favorite Movies</h1>
       </header>
       <main>
-        <img src={Thor} alt="thor movie poster" width="50" height="100" />
+        <img src={Thor} alt="thor movie poster" width="400" height="700" />
         <PhotoEntry
           title="Thor: Ragnarok"
           tags={["action", "comedy", "MARVEL"]}
         />
+        <p>Separator</p>
         <img
           src={Hamilton}
           alt="hamilton musical poster"
-          width="50"
-          height="100"
+          width="40"
+          height="700"
         />
         <PhotoEntry title="Hamilton" tags={["drama", "historic", "musical"]} />
       </main>
