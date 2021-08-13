@@ -2,7 +2,7 @@ interface photoEntryProps {
   title: string;
   tags: string[];
   description: string;
-  link: string
+  link: string;
 }
 
 function PhotoEntry(props: photoEntryProps): JSX.Element {

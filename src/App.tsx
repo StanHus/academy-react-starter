@@ -38,7 +38,7 @@ function App(): JSX.Element {
             title="Thor: Ragnarok"
             tags={["action", "comedy", "MARVEL"]}
             description="Magic boy loses his toy, befriends a green guy from their sandbox, punches his sister, and burns their house"
-            link = "https://www.imdb.com/title/tt3501632/"
+            link="https://www.imdb.com/title/tt3501632/"
           />
           <img src={Thor} alt="thor movie poster" width="250" height="350" />
         </div>
@@ -48,7 +48,7 @@ function App(): JSX.Element {
             title="Hamilton"
             tags={["drama", "historic", "musical"]}
             description="A talkative dude makes plans, friends, drama, and some tradeoffs in a complex geopolitical situation"
-            link = "https://www.imdb.com/title/tt8503618/"
+            link="https://www.imdb.com/title/tt8503618/"
           />
           <img
             src={Hamilton}
@@ -63,7 +63,7 @@ function App(): JSX.Element {
             title="Supernova"
             tags={["drama", "romance"]}
             description="Touching romance, but an even more powerful drama tackling the most difficult challenges in life"
-            link = "https://www.imdb.com/title/tt11169050/"
+            link="https://www.imdb.com/title/tt11169050/"
           />
           <img
             src={Supernova}
@@ -74,7 +74,10 @@ function App(): JSX.Element {
         </div>
       </main>
       <footer>
-        <p>I decided to go in a different direction with the website here. Quite a few more tweeks left, but I am really happy with my work</p>
+        <p>
+          I decided to go in a different direction with the website here. Quite
+          a few more tweeks left, but I am really happy with my work
+        </p>
       </footer>
     </body>
   );
