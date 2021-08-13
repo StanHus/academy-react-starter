@@ -15,22 +15,24 @@ const Movie = {
 };
 
 const Header = {
-  padding: "10px 20px" as const,
+  padding: "30px 20px" as const,
   width: "1000px" as const,
-  backgroundColor: "#b3b3cc" as const,
+  margin: "50px auto" as const,
+  backgroundColor: "#4d0026" as const,
   textAlign: "center" as const,
-  color: "black" as const,
-  fontSize: "40px" as const,
+  color: "white" as const,
+  fontSize: "50px" as const,
   border: "3px double black" as const,
 };
 
 const Footer = {
-  padding: "10px 20px" as const,
+  padding: "30px 20px" as const,
   width: "1000px" as const,
-  backgroundColor: "#b3b3cc" as const,
+  backgroundColor: "#4d0026" as const,
   textAlign: "center" as const,
-  color: "black" as const,
-  fontSize: "20px" as const,
+  color: "white" as const,
+  margin: "50px auto" as const,
+  fontSize: "25x" as const,
   border: "3px double black" as const,
 };
 
