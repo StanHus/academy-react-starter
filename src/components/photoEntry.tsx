@@ -14,7 +14,9 @@ function PhotoEntry(props: photoEntryProps): JSX.Element {
         <i>Tags: {props.tags.join(", ")}</i>
       </p>
       <p>{props.description}</p>
-      <p><a href ="{link}">IMDB</a></p>
+      <p>
+        <a href="{link}">IMDB</a>
+      </p>
     </section>
   );
 }
