@@ -1,9 +1,5 @@
-//import { greet } from "./utils/greet";
 import PhotoEntry from "./components/photoEntry";
-// import Thor from "./Thor.jpg";
-// import Hamilton from "./hamilton.jpg";
-// import Supernova from "./supernova.jpg";
-
+//import {styles} from "./components/styles"
 const Movie = {
   width: "1000px" as const,
   margin: "50px auto" as const,
@@ -57,7 +53,6 @@ function App(): JSX.Element {
             description="Magic boy loses his toy, befriends a green guy from their sandbox, punches his sister, and burns their house"
             link="https://goo.gl/maps/qxt9vcwFuB8JRr4x6"
           />
-          {/* <img src={Thor} alt="thor movie poster" width="250" height="350" /> */}
         </div>
 
         <div style={styles.Movie}>
@@ -68,12 +63,6 @@ function App(): JSX.Element {
             description="A talkative dude makes plans, friends, drama, and some tradeoffs in a complex geopolitical situation"
             link="https://goo.gl/maps/r1hHSQuQ5NQb3qRv5"
           />
-          {/* <img
-            src={Hamilton}
-            alt="hamilton musical poster"
-            width="250"
-            height="350"
-          /> */}
         </div>
 
         <div style={styles.Movie}>
@@ -84,18 +73,26 @@ function App(): JSX.Element {
             description="Touching romance, but an even more powerful drama tackling the most difficult challenges in life"
             link="https://goo.gl/maps/1rf5JdZnmFzzPeLx8"
           />
-          {/* <img
-            src={Supernova}
-            alt="Supernova movie poster"
-            width="250"
-            height="350"
-          /> */}
+        </div>
+
+        <div style={styles.Movie}>
+          <PhotoEntry
+            title="Fight club"
+            image="https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+            tags={["action", "thriller"]}
+            description="Boys be boys. Fans of soap fight, hang out together, and plan an elaborate scheme to undermine the US financial structure"
+            link="https://goo.gl/maps/QhQ2CRShC9mLywUQ7"
+          />
         </div>
       </main>
       <footer style={styles.Footer}>
         <p>
           I decided to go in a different direction with the website here. Quite
           a few more tweeks left, but I am really happy with my work
+        </p>
+        <p>
+          To be completely honest, I dont think I need locations, but I put them
+          in anyways (in case I ever want to create a map with these places)
         </p>
       </footer>
     </body>
