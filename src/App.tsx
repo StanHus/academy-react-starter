@@ -13,13 +13,17 @@ function App(): JSX.Element {
         <PhotoEntry
           title="Thor: Ragnarok"
           tags={["action", "comedy", "MARVEL"]}
-          description = "Magic boy loses his toy, befriends a green guy from their sandbox, punches his sister, and burns their house"
+          description="Magic boy loses his toy, befriends a green guy from their sandbox, punches his sister, and burns their house"
         />
-       <img src={Thor} alt="thor movie poster" width="200" height="350" />
-        
+        <img src={Thor} alt="thor movie poster" width="200" height="350" />
+
         <p>Separator</p>
 
-        <PhotoEntry title="Hamilton" tags={["drama", "historic", "musical"]} description = "A talkative dude makes plans, friends, drama, and some tradeoffs in a complex geopolitical situation" />
+        <PhotoEntry
+          title="Hamilton"
+          tags={["drama", "historic", "musical"]}
+          description="A talkative dude makes plans, friends, drama, and some tradeoffs in a complex geopolitical situation"
+        />
         <img
           src={Hamilton}
           alt="hamilton musical poster"
