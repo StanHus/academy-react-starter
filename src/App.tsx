@@ -54,7 +54,7 @@ function App(): JSX.Element {
             title="Thor: Ragnarok"
             tags={["action", "comedy", "MARVEL"]}
             description="Magic boy loses his toy, befriends a green guy from their sandbox, punches his sister, and burns their house"
-            link="https://www.imdb.com/title/tt3501632/"
+            link="https://goo.gl/maps/qxt9vcwFuB8JRr4x6"
           />
           <img src={Thor} alt="thor movie poster" width="250" height="350" />
         </div>
@@ -64,7 +64,7 @@ function App(): JSX.Element {
             title="Hamilton"
             tags={["drama", "historic", "musical"]}
             description="A talkative dude makes plans, friends, drama, and some tradeoffs in a complex geopolitical situation"
-            link="https://www.imdb.com/title/tt8503618/"
+            link="https://goo.gl/maps/r1hHSQuQ5NQb3qRv5"
           />
           <img
             src={Hamilton}
@@ -79,7 +79,7 @@ function App(): JSX.Element {
             title="Supernova"
             tags={["drama", "romance"]}
             description="Touching romance, but an even more powerful drama tackling the most difficult challenges in life"
-            link="https://www.imdb.com/title/tt11169050/"
+            link="https://goo.gl/maps/1rf5JdZnmFzzPeLx8"
           />
           <img
             src={Supernova}

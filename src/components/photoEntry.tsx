@@ -15,7 +15,9 @@ function PhotoEntry(props: photoEntryProps): JSX.Element {
       </p>
       <p>{props.description}</p>
       <p>
-        <a href="{link}">IMDB</a>
+        <a href={props.link}>
+          <strong>Location</strong> in focus
+        </a>
       </p>
     </section>
   );
