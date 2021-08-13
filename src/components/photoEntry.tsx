@@ -2,6 +2,7 @@ interface photoEntryProps {
   title: string;
   tags: string[];
   description: string;
+  link: string
 }
 
 function PhotoEntry(props: photoEntryProps): JSX.Element {
@@ -12,6 +13,7 @@ function PhotoEntry(props: photoEntryProps): JSX.Element {
         <i>Tags: {props.tags.join(", ")}</i>
       </p>
       <p>{props.description}</p>
+      <p>{props.link}</p>
     </section>
   );
 }

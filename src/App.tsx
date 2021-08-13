@@ -3,10 +3,11 @@ import PhotoEntry from "./components/photoEntry";
 import Thor from "./Thor.jpg";
 import Hamilton from "./hamilton.jpg";
 import Supernova from "./supernova.jpg";
+
 const Movie = {
   width: "900px" as const,
   margin: "50px auto" as const,
-  backgroundColor: "light grey" as const,
+  backgroundColor: "#ffffcc" as const,
   textAlign: "center" as const,
   minHeight: "200px" as const,
   boxSizing: "border-box" as const,
@@ -37,8 +38,9 @@ function App(): JSX.Element {
             title="Thor: Ragnarok"
             tags={["action", "comedy", "MARVEL"]}
             description="Magic boy loses his toy, befriends a green guy from their sandbox, punches his sister, and burns their house"
+            link = "https://www.imdb.com/title/tt3501632/"
           />
-          <img src={Thor} alt="thor movie poster" width="200" height="350" />
+          <img src={Thor} alt="thor movie poster" width="250" height="350" />
         </div>
 
         <div style={styles.Movie}>
@@ -46,11 +48,12 @@ function App(): JSX.Element {
             title="Hamilton"
             tags={["drama", "historic", "musical"]}
             description="A talkative dude makes plans, friends, drama, and some tradeoffs in a complex geopolitical situation"
+            link = "https://www.imdb.com/title/tt8503618/"
           />
           <img
             src={Hamilton}
             alt="hamilton musical poster"
-            width="200"
+            width="250"
             height="350"
           />
         </div>
@@ -60,15 +63,19 @@ function App(): JSX.Element {
             title="Supernova"
             tags={["drama", "romance"]}
             description="Touching romance, but an even more powerful drama tackling the most difficult challenges in life"
+            link = "https://www.imdb.com/title/tt11169050/"
           />
           <img
             src={Supernova}
             alt="Supernova movie poster"
-            width="200"
+            width="250"
             height="350"
           />
         </div>
       </main>
+      <footer>
+        <p>I decided to go in a different direction with the website here. Quite a few more tweeks left, but I am really happy with my work</p>
+      </footer>
     </body>
   );
 }
