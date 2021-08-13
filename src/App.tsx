@@ -13,7 +13,7 @@ function App(): JSX.Element {
             title="Thor: Ragnarok"
             image="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg"
             tags={["action", "comedy", "MARVEL"]}
-            description="Magic boy loses his toy, befriends a green guy from their sandbox, punches his sister, and burns their house"
+            description="Magic boy loses his toy, befriends a green dude from the playground, punches his sister, and burns their house down"
             link="https://goo.gl/maps/qxt9vcwFuB8JRr4x6"
           />
         </div>
@@ -23,7 +23,7 @@ function App(): JSX.Element {
             title="Hamilton"
             image="https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_.jpg"
             tags={["drama", "historic", "musical"]}
-            description="A talkative dude makes plans, friends, drama, and some tradeoffs in a complex geopolitical situation"
+            description="A talkative man makes plans, friends, drama, and some tradeoffs in a complex geopolitical situation"
             link="https://goo.gl/maps/r1hHSQuQ5NQb3qRv5"
           />
         </div>
@@ -43,7 +43,7 @@ function App(): JSX.Element {
             title="Fight club"
             image="https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
             tags={["action", "thriller"]}
-            description="Boys be boys. Fans of soap fight, hang out together, and plan an elaborate scheme to undermine the US financial structure"
+            description="Boys be boys. Fans of soap fight, hang out together, and plan an elaborate scheme to undermine the US financial infrastructure"
             link="https://goo.gl/maps/QhQ2CRShC9mLywUQ7"
           />
         </div>
