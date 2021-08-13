@@ -5,7 +5,7 @@ import Hamilton from "./hamilton.jpg";
 import Supernova from "./supernova.jpg";
 
 const Movie = {
-  width: "900px" as const,
+  width: "1000px" as const,
   margin: "50px auto" as const,
   backgroundColor: "#ffffcc" as const,
   textAlign: "center" as const,
@@ -16,14 +16,28 @@ const Movie = {
 
 const Header = {
   padding: "10px 20px" as const,
+  width: "1000px" as const,
+  backgroundColor: "#b3b3cc" as const,
   textAlign: "center" as const,
   color: "black" as const,
   fontSize: "40px" as const,
+  border: "3px double black" as const,
 };
+
+const Footer = {
+  padding: "10px 20px" as const,
+  width: "1000px" as const,
+  backgroundColor: "#b3b3cc" as const,
+  textAlign: "center" as const,
+  color: "black" as const,
+  fontSize: "20px" as const,
+  border: "3px double black" as const,
+}
 
 const styles = {
   Movie: Movie,
   Header: Header,
+  Footer: Footer
 };
 
 function App(): JSX.Element {
@@ -73,7 +87,7 @@ function App(): JSX.Element {
           />
         </div>
       </main>
-      <footer>
+      <footer style = {styles.Footer}>
         <p>
           I decided to go in a different direction with the website here. Quite
           a few more tweeks left, but I am really happy with my work
