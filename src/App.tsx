@@ -3,7 +3,26 @@ import PhotoEntry from "./components/photoEntry";
 import Thor from "./Thor.jpg";
 import Hamilton from "./hamilton.jpg";
 import Supernova from "./supernova.jpg";
-import { styles } from "./styles";
+const Movie = {
+  width: "300px",
+  margin: "30px auto",
+  backgroundColor: "#44014C",
+  textAlign: "center",
+  minHeight: "200px",
+  boxSizing: "border-box",
+};
+
+const Header = {
+  padding: "10px 20px",
+  textAlign: "center",
+  color: "white",
+  fontSize: "40px",
+};
+
+const styles = {
+  Movie: Movie,
+  Header: Header,
+};
 
 function App(): JSX.Element {
   return (
