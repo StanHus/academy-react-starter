@@ -2,14 +2,16 @@
 import PhotoEntry from "./components/photoEntry";
 import Thor from "./Thor.jpg";
 import Hamilton from "./hamilton.jpg";
+import Supernova from "./supernova.jpg";
+import { styles } from "./styles";
 
 function App(): JSX.Element {
   return (
     <body>
       <header>
-        <h1>My Favorite Movies</h1>
+        <h1 style={styles.Header}>My Favorite Movies</h1>
       </header>
-      <main>
+      <main style={styles.Movie}>
         <PhotoEntry
           title="Thor: Ragnarok"
           tags={["action", "comedy", "MARVEL"]}
@@ -27,6 +29,17 @@ function App(): JSX.Element {
         <img
           src={Hamilton}
           alt="hamilton musical poster"
+          width="200"
+          height="350"
+        />
+        <PhotoEntry
+          title="Supernova"
+          tags={["drama", "romance"]}
+          description="Touching romance, but an even more powerful drama tackling the most difficult challenges in life"
+        />
+        <img
+          src={Supernova}
+          alt="Supernova movie poster"
           width="200"
           height="350"
         />
