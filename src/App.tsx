@@ -1,51 +1,14 @@
 import PhotoEntry from "./components/photoEntry";
-//import {styles} from "./components/styles"
-const Movie = {
-  width: "1000px" as const,
-  margin: "50px auto" as const,
-  backgroundColor: "#ffffcc" as const,
-  textAlign: "center" as const,
-  minHeight: "200px" as const,
-  boxSizing: "border-box" as const,
-  border: "5px solid black" as const,
-};
-
-const Header = {
-  padding: "30px 20px" as const,
-  width: "1000px" as const,
-  margin: "50px auto" as const,
-  backgroundColor: "#4d0026" as const,
-  textAlign: "center" as const,
-  color: "white" as const,
-  fontSize: "50px" as const,
-  border: "3px double black" as const,
-};
-
-const Footer = {
-  padding: "30px 20px" as const,
-  width: "1000px" as const,
-  backgroundColor: "#4d0026" as const,
-  textAlign: "center" as const,
-  color: "white" as const,
-  margin: "50px auto" as const,
-  fontSize: "25x" as const,
-  border: "3px double black" as const,
-};
-
-const styles = {
-  Movie: Movie,
-  Header: Header,
-  Footer: Footer,
-};
+import { Footer, Header, Movie } from "./components/styles";
 
 function App(): JSX.Element {
   return (
     <body>
       <header>
-        <h1 style={styles.Header}>My Favorite Movies</h1>
+        <h1 style={Header}>My Favorite Movies</h1>
       </header>
       <main>
-        <div style={styles.Movie}>
+        <div style={Movie}>
           <PhotoEntry
             title="Thor: Ragnarok"
             image="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg"
@@ -55,7 +18,7 @@ function App(): JSX.Element {
           />
         </div>
 
-        <div style={styles.Movie}>
+        <div style={Movie}>
           <PhotoEntry
             title="Hamilton"
             image="https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_.jpg"
@@ -65,7 +28,7 @@ function App(): JSX.Element {
           />
         </div>
 
-        <div style={styles.Movie}>
+        <div style={Movie}>
           <PhotoEntry
             title="Supernova"
             image="https://m.media-amazon.com/images/M/MV5BNDc0Y2FjZjgtOWNkYy00NjdjLWE3ZjYtZGYyNDdmYzZiZGYzXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg"
@@ -75,7 +38,7 @@ function App(): JSX.Element {
           />
         </div>
 
-        <div style={styles.Movie}>
+        <div style={Movie}>
           <PhotoEntry
             title="Fight club"
             image="https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
@@ -85,7 +48,7 @@ function App(): JSX.Element {
           />
         </div>
       </main>
-      <footer style={styles.Footer}>
+      <footer style={Footer}>
         <p>
           I decided to go in a different direction with the website here. Quite
           a few more tweeks left, but I am really happy with my work
