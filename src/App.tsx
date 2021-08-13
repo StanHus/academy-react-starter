@@ -4,19 +4,19 @@ import Thor from "./Thor.jpg";
 import Hamilton from "./hamilton.jpg";
 import Supernova from "./supernova.jpg";
 const Movie = {
-  width: "300px",
-  margin: "30px auto",
-  backgroundColor: "#44014C",
-  textAlign: "center",
-  minHeight: "200px",
-  boxSizing: "border-box",
+  width: "300px" as const,
+  margin: "30px auto" as const,
+  backgroundColor: "#44014C" as const,
+  textAlign: "center" as const,
+  minHeight: "200px" as const,
+  boxSizing: "border-box" as const,
 };
 
 const Header = {
-  padding: "10px 20px",
-  textAlign: "center",
-  color: "white",
-  fontSize: "40px",
+  padding: "10px 20px" as const,
+  textAlign: "center" as const,
+  color: "white" as const,
+  fontSize: "40px" as const,
 };
 
 const styles = {
