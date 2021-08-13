@@ -32,12 +32,12 @@ const Footer = {
   color: "black" as const,
   fontSize: "20px" as const,
   border: "3px double black" as const,
-}
+};
 
 const styles = {
   Movie: Movie,
   Header: Header,
-  Footer: Footer
+  Footer: Footer,
 };
 
 function App(): JSX.Element {
@@ -87,7 +87,7 @@ function App(): JSX.Element {
           />
         </div>
       </main>
-      <footer style = {styles.Footer}>
+      <footer style={styles.Footer}>
         <p>
           I decided to go in a different direction with the website here. Quite
           a few more tweeks left, but I am really happy with my work

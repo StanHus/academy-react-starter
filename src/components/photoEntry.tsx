@@ -1,9 +1,9 @@
 interface photoEntryProps {
   title: string;
   tags: string[];
-  description: string; 
-//   link: <link rel="import" href="component.html" />
-link: string
+  description: string;
+  //   link: <link rel="import" href="component.html" />
+  link: string;
 }
 
 function PhotoEntry(props: photoEntryProps): JSX.Element {
