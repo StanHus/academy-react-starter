@@ -15,7 +15,7 @@ function App(): JSX.Element {
           title="Thor: Ragnarok"
           tags={["action", "comedy", "MARVEL"]}
         />
-        <img src={Hamilton} alt="hamilton musical poster" idth="50" height="100"/>
+        <img src={Hamilton} alt="hamilton musical poster" width="50" height="100"/>
         <PhotoEntry title="Hamilton" tags={["drama", "historic", "musical"]} />
       </main>
     </body>
