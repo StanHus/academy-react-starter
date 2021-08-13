@@ -22,3 +22,5 @@ const styles = {
   Movie: Movie,
   Header: Header,
 };
+
+export styles;
