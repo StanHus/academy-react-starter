@@ -1,3 +1,4 @@
+import { mappedMovies } from "./components/data";
 import PhotoEntry from "./components/photoEntry";
 import { Footer, Header, Movie } from "./components/styles";
 
@@ -8,7 +9,8 @@ function App(): JSX.Element {
         <h1 style={Header}>My Favorite Movies</h1>
       </header>
       <main>
-        <div style={Movie}>
+        <div style = {Movie}>{mappedMovies}</div>
+        {/* <div style={Movie}>
           <PhotoEntry
             title="Thor: Ragnarok"
             image="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg"
@@ -46,7 +48,7 @@ function App(): JSX.Element {
             description="Boys be boys. Fans of soap fight, hang out together, and plan an elaborate scheme to undermine the US financial infrastructure"
             link="https://goo.gl/maps/QhQ2CRShC9mLywUQ7"
           />
-        </div>
+        </div> */}
       </main>
       <footer style={Footer}>
         <p>
