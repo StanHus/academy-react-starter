@@ -9,7 +9,7 @@ function App(): JSX.Element {
         <h1 style={Header}>My Favorite Movies</h1>
       </header>
       <main>
-        <div style = {Movie}>{mappedMovies}</div>
+        <div>{mappedMovies}</div>
         {/* <div style={Movie}>
           <PhotoEntry
             title="Thor: Ragnarok"
