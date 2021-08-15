@@ -1,3 +1,4 @@
+import { Movie } from "./styles";
 interface photoEntryProps {
   title: string;
   tags: string[];
@@ -45,11 +46,9 @@ const MoviesList = [
   },
 ];
 
-const MoviesListMapped = MoviesList.map(function PhotoEntry(
-  entry: photoEntryProps
-): JSX.Element {
+function PhotoEntry(entry: photoEntryProps): JSX.Element {
   return (
-    <section key={entry.title}>
+    <section key={entry.title} style={Movie}>
       <h2>{entry.title}</h2>
       <img src={entry.image} alt="movie poster" width="250" height="350" />
       <p>
@@ -63,6 +62,7 @@ const MoviesListMapped = MoviesList.map(function PhotoEntry(
       </p>
     </section>
   );
-});
+}
 
-export { MoviesListMapped };
+export default PhotoEntry;
+export { MoviesList };

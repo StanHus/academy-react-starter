@@ -1,7 +1,6 @@
-//import PhotoEntry from "./components/photoEntry";
-import { Footer, Header, Movie } from "./components/styles";
-import { MoviesListMapped } from "./components/data";
-//import {MoviesList} from "./components/data"
+import { Footer, Header } from "./components/styles";
+import { MoviesList } from "./components/data";
+import PhotoEntry from "./components/data";
 
 function App(): JSX.Element {
   return (
@@ -10,7 +9,7 @@ function App(): JSX.Element {
         <h1 style={Header}>My Favorite Movies</h1>
       </header>
       <main>
-        <div style={Movie}>{MoviesListMapped}</div>
+        <div>{MoviesList.map(PhotoEntry)}</div>
       </main>
       <footer style={Footer}>
         <p>
