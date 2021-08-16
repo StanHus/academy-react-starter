@@ -6,6 +6,7 @@ const Movie = {
   minHeight: "200px" as const,
   boxSizing: "border-box" as const,
   border: "5px solid black" as const,
+  fontSize: "23px" as const,
 };
 
 const Header = {
