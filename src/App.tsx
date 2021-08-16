@@ -1,4 +1,4 @@
-import { Footer } from "./components/styles";
+import { Footer, Header } from "./components/styles";
 import { MoviesList } from "./components/data";
 import PhotoEntry from "./components/data";
 
@@ -11,7 +11,7 @@ function App(): JSX.Element {
       </head>
       <body>
         <header>
-          <h1 className="header">My Favorite Movies</h1>
+          <h1 style = { Header }>My Favorite Movies</h1>
         </header>
         <main>
           <div>{MoviesList.map(PhotoEntry)}</div>
