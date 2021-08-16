@@ -11,7 +11,7 @@ function App(): JSX.Element {
       </head>
       <body>
         <header>
-          <h1 style = { Header }>My Favorite Movies</h1>
+          <h1 style={Header}>My Favorite Movies</h1>
         </header>
         <main>
           <div>{MoviesList.map(PhotoEntry)}</div>
