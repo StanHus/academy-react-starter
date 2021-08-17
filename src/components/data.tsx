@@ -1,4 +1,4 @@
-import { Movie } from "./styles";
+import { MainStyle } from "./styles";
 interface photoEntryProps {
   title: string;
   tags: string[];
@@ -48,7 +48,7 @@ const MoviesList = [
 
 function PhotoEntry(entry: photoEntryProps): JSX.Element {
   return (
-    <section key={entry.title} style={Movie}>
+    <section key={entry.title} style={MainStyle}>
       <h2>{entry.title}</h2>
       <img src={entry.image} alt="movie poster" width="250" height="350" />
       <p>

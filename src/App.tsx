@@ -1,6 +1,8 @@
-import { Footer, Header } from "./components/styles";
-import { MoviesList } from "./components/data";
-import PhotoEntry from "./components/data";
+import { FooterStyle, HeaderStyle, MapStyle } from "./components/styles";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import Main from "./components/Main";
+import Map from "./components/Map";
 
 function App(): JSX.Element {
   return (
@@ -10,23 +12,14 @@ function App(): JSX.Element {
         <link href="css/style.css" rel="stylesheet" />
       </head>
       <body>
-        <header>
-          <h1 style={Header}>My Favorite Movies</h1>
-        </header>
+        <header style={HeaderStyle}>{Header}</header>
         <main>
-          <div>{MoviesList.map(PhotoEntry)}</div>
+          <Main />
+          <div style={MapStyle}>
+            <Map />
+          </div>
         </main>
-        <footer style={Footer}>
-          <p>
-            I decided to go in a different direction with the website here.
-            Quite a few more tweeks left, but I am really happy with my work
-          </p>
-          <p>
-            To be completely honest, I dont think I need locations, but I put
-            them in anyways (in case I ever want to create a map with these
-            places)
-          </p>
-        </footer>
+        <footer style={FooterStyle}>{Footer}</footer>
       </body>
     </html>
   );

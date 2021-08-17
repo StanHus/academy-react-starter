@@ -1,5 +1,5 @@
-const Movie = {
-  width: "1000px" as const,
+const MainStyle = {
+  width: "auto" as const,
   margin: "50px auto" as const,
   backgroundColor: "#ffffcc" as const,
   textAlign: "center" as const,
@@ -9,9 +9,9 @@ const Movie = {
   fontSize: "23px" as const,
 };
 
-const Header = {
+const HeaderStyle = {
   padding: "30px 20px" as const,
-  width: "1000px" as const,
+  width: "auto" as const,
   margin: "50px auto" as const,
   backgroundColor: "#4d0026" as const,
   textAlign: "center" as const,
@@ -20,9 +20,9 @@ const Header = {
   border: "3px double black" as const,
 };
 
-const Footer = {
+const FooterStyle = {
   padding: "30px 20px" as const,
-  width: "1000px" as const,
+  width: "auto" as const,
   backgroundColor: "#4d0026" as const,
   textAlign: "center" as const,
   color: "white" as const,
@@ -31,4 +31,13 @@ const Footer = {
   border: "3px double black" as const,
 };
 
-export { Footer, Header, Movie };
+const MapStyle = {
+  width: "640" as const,
+  height: "480" as const,
+  margin: "0" as const,
+  textAlign: "center" as const,
+  minHeight: "200px" as const,
+  fontSize: "23px" as const,
+};
+
+export { FooterStyle, HeaderStyle, MainStyle, MapStyle };
