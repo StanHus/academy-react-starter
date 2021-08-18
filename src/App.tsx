@@ -17,7 +17,10 @@ function App(): JSX.Element {
         <main>
           <Main />
           <Poll />
-          <h2 style = {MapStyle}>!PlaceHolder! I am extremely annoyed with myself that I cant make an in-house poll</h2>
+          <h2 style={MapStyle}>
+            !PlaceHolder! I am extremely annoyed with myself that I cant make an
+            in-house poll
+          </h2>
           <div style={MapStyle}>
             <Map />
           </div>

@@ -7,7 +7,6 @@ function Poll(): JSX.Element {
   //   3: "Wow",
   //   4: "Noooo waaaay",
   // };
-  
 
   return (
     <html>
@@ -19,6 +18,18 @@ function Poll(): JSX.Element {
           Answer
         </button> 
        </form> */}
+      {/* <section>
+<h2>How Many did you know?</h2>
+<input type="text" id="myBtn" value="none?" />
+<p>
+  Click the button below to change the text displayed on the input
+  button above.
+</p>
+<button onClick ={() =>"myFunction(1)"}>1</button>
+<button onClick ={() =>"myFunction(2)"}>2</button>
+<button onClick ={() =>"myFunction(3)"}>3</button>
+<button onClick ={() =>"myFunction(4)"}>4</button>
+</section> */}
       <iframe
         title="poll"
         name="opinionstage-widget"
@@ -30,21 +41,8 @@ function Poll(): JSX.Element {
         frameBorder="0"
         allow="fullscreen"
       ></iframe>
-</html>
-)}
+    </html>
+  );
+}
 
 export default Poll;
-
-
-{/* // <section>
-// <h2>How Many did you know?</h2>
-// <input type="text" id="myBtn" value="none?" />
-// <p>
-//   Click the button below to change the text displayed on the input
-//   button above.
-// </p>
-// <button onClick ={() =>"myFunction(1)"}>1</button>
-// <button onClick ={() =>"myFunction(2)"}>2</button>
-// <button onClick ={() =>"myFunction(3)"}>3</button>
-// <button onClick ={() =>"myFunction(4)"}>4</button>
-// </section> */}
