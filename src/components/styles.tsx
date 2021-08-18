@@ -34,7 +34,7 @@ const FooterStyle = {
 const MapStyle = {
   width: "640" as const,
   height: "480" as const,
-  margin: "0" as const,
+  margin: "30" as const,
   textAlign: "center" as const,
   minHeight: "200px" as const,
   fontSize: "23px" as const,
