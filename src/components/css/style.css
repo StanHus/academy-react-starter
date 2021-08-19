@@ -1,6 +1,6 @@
-#header {
+.header {
   padding: 30px 20px;
-  width: 1000px;
+  width: auto;
   margin: 50px auto;
   background-color: #4d0026;
   text-align: center;
@@ -9,13 +9,35 @@
   border: 3px double black;
 }
 
-#map {
+.map {
   padding: 30px 20px;
-  width: 1000px;
+  width: 640px;
+  margin: 30px auto;
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+  border: 3px double black;
+}
+
+.footer {
+  padding: 30px 20px;
+  width: auto;
   margin: 50px auto;
   background-color: #4d0026;
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 25px;
   border: 3px double black;
+}
+
+.main {
+  width: auto;
+  align-items: center;
+  margin: 50px auto;
+  background-color: lightcyan;
+  text-align: center;
+  min-height: "200px";
+  box-sizing: border-box;
+  border: 5px solid black;
+  font-size: 23px;
 }

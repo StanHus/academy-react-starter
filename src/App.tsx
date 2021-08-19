@@ -1,4 +1,4 @@
-import { FooterStyle, HeaderStyle, MapStyle } from "./components/styles";
+import "./components/css/style.css";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import Main from "./components/Main";
@@ -10,23 +10,22 @@ function App(): JSX.Element {
     <html>
       <head>
         <title>My Favourite Movies</title>
-        <link href="css/style.css" rel="stylesheet" />
       </head>
       <body>
-        <header style={HeaderStyle}>{Header}</header>
+        <header className="header">{Header}</header>
         <main>
           <Main />
           <Poll />
-          <h2 style={MapStyle}>
+          <h2 className="map">
             !PlaceHolder! I am extremely annoyed with myself that I cant make an
             in-house poll
           </h2>
-          <div style={MapStyle}>
+          <div className="map">
             <Map />
           </div>
           <div>{}</div>
         </main>
-        <footer style={FooterStyle}>{Footer}</footer>
+        <footer className="footer">{Footer}</footer>
       </body>
     </html>
   );
